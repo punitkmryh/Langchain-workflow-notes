@@ -11,7 +11,8 @@ In this lecture, we will build a **Generative AI web application** using:
 - **Ollama** for integrating **open-source LLMs** like LLaMA 2, Gemma, or Mistral
     
 - No use of OpenAI — making it **cost-free and open-source**
-    
+
+![](https://github.com/punitkmryh/Ollama-chatbot-using-LangChain/blob/main/Ollama-langchain-chatbot.png)
 
 ---
 
