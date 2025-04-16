@@ -3,3 +3,4 @@ langchain
 langchain-community
 ollama
 python-dotenv
+langchain_groq
