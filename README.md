@@ -191,5 +191,3 @@ By the end of this lecture, you will have:
     
 
 ---
-
-Would you like me to generate a **PDF version**, **Notion-friendly notes**, or **slides** for this lecture?
