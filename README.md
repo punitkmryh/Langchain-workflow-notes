@@ -182,7 +182,7 @@ It will launch a local server at `http://localhost:8501` displaying your app.
 
 ## ✅ Final Thoughts
 
-By the end of this lecture, you will have:
+By the end of this, you will have:
 
 - Built an interactive Generative AI App using **LangChain + Streamlit**
     
