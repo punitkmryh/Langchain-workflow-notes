@@ -30,8 +30,9 @@ input_text = st.text_input("What question do you have in mind?")
 try:
     llm = Ollama(
         model="gemma:2b",
-        base_url="http://localhost:11434"  # You can change this if exposing via tunnel
+        base_url="https://your-public-ollama-url.com"
     )
+
     output_parser = StrOutputParser()
     chain = prompt | llm | output_parser
 except Exception as e:
