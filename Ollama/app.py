@@ -25,9 +25,10 @@ input_text = st.text_input("What question do you have in mind?")
 # LLM Setup
 try:
     llm = ChatGroq(
-        model="mixtral-8x7b-32768",  # Options: mixtral-8x7b-32768, llama2-70b-4096, gemma-7b-it
+        model="llama-3.3-70b-versatile",
         api_key=os.environ["GROQ_API_KEY"]
     )
+
     chain = prompt | llm | StrOutputParser()
 except Exception as e:
     st.error(f"Error initializing Groq LLM: {e}")
